@@ -14,20 +14,25 @@ body{
 .table {
     border-radius: 5px;
     margin: 45px auto;
-    float: none;
-    table-layout: fixed;
+/*    position: relative;
+*/    table-layout: fixed;
     text-align: center;
 }
 h1{
 	padding-top: 50px;
 	color: white;
 }
+.back-button {
+	position: absolute;
+	right: 0;
+}
+.next-button {
+	position: absolute;
 
-.next-button{
-	margin-left: 500px;
 }
 .table-container{
     width: 75%;
+    position: relative;
 
 }
 

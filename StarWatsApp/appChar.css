@@ -1,0 +1,40 @@
+body{
+	background: url(stars.jpg);
+	background-size: cover; 
+	background-position: center;
+
+}
+
+
+.app-container{
+	    width: 50%;
+	    margin: 0 auto;
+
+}
+.table {
+    margin: 45px auto;
+/*    position: relative;
+*/    table-layout: fixed;
+    text-align: center;
+}
+h1{
+	padding-top: 50px;
+	color: white;
+}
+.back-button {
+	position: absolute;
+    margin-bottom: 30px;
+	
+}
+.next-button {
+	position: absolute;
+	right: 0;
+    margin-bottom: 30px;
+}
+.table-container{
+    width: 75%;
+    position: relative;
+
+}
+
+
